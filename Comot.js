@@ -24,5 +24,3 @@ var Comot = {
         for (var e = document.getElementsByClassName("comot"), t = 0, o = e.length; t < o; t++) e[t].style = n
     }
 };
-var obj=Object.create(Comot);
-obj.init({click: 3, interval: 60000});
