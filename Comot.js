@@ -25,4 +25,4 @@ var Comot = {
     }
 };
 var obj=Object.create(Comot);
-obj.init(click:3, interval:60000);
+obj.init({click:3, interval:60000});
